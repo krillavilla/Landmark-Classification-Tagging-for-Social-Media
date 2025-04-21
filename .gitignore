@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.html
+
+# Virtual Environments
+env/
+env37/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+.venv
+conda-env/
+
+# PyTorch
+*.pt
+*.pth
+checkpoints/
+
+# Dataset
+landmark_images/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+mean_and_std.pt
